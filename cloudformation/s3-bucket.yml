@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'S3 bucket for CICD PR'
+Description: 'S3 bucket for CICD Pull Request'
 
 Parameters:
   Environment:
@@ -19,8 +19,6 @@ Resources:
       Tags:
         - Key: Environment
           Value: !Ref Environment
-        - Key: Environment
-          Value: GithubActions
 
 
 Outputs:
