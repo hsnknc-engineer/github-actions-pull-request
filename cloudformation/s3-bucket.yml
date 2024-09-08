@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'S3 bucket for CICD Pull Request'
+Description: 'S3 bucket for CICD (PR) Pull Request'
 
 Parameters:
   Environment:
